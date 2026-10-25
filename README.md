@@ -2,7 +2,13 @@
 
 **Notes that do the math.**
 
-[Feedback]([url](https://tally.so/r/BEEzV7))
+**Feedback**
+
+Your feedback helps us know what to change and what you want to see. It takes 10 seconds, and is greatly appreciated.
+
+https://tally.so/r/BEEzV7
+
+---
 
 Type like you're writing a note. Plainsum answers on the same line, and turns any page into a to-do list, calorie tracker, budget, and more.
 
