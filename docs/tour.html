@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="Plainsum is a notes app that calculates as you type. Units, money, time zones, calories, and 21 page types, all instant and on your device." />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>Plainsum</title>
+    <script type="module" crossorigin src="./assets/tour-CBz2L5z6.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/chart-mErwlyWH.js">
+    <link rel="stylesheet" crossorigin href="./assets/chart-DGeclWPW.css">
+    <link rel="stylesheet" crossorigin href="./assets/tour-Dqu0LnJe.css">
+  </head>
+  <body>
+    <header class="top">
+      <a class="brand" href="./">Plainsum</a>
+      <a class="top-link" href="./">Download</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <h1>Type it.<br />Plainsum works it out.</h1>
+          <p class="lede">Plainsum is a notes app that calculates as you type. Write a first line like todo list or cal tracker and the whole page becomes that tool.</p>
+          <div class="ctas">
+            <a class="btn primary" href="./app.html?start">Open Plainsum</a>
+            <a class="btn" href="#pages"><span>See all <span class="n-pages">29</span> pages</span></a>
+          </div>
+        </div>
+        <div class="demo hero-demo" id="hero-demo" aria-label="Plainsum typing a page by itself"></div>
+      </section>
+
+      <section class="facts" aria-label="What’s inside">
+        <div><b id="fact-pages">21</b><span>page types, picked by the first line you type</span></div>
+        <div><b id="fact-foods">203</b><span>everyday foods with calories from USDA data</span></div>
+        <div><b>0</b><span>network requests while you type, so results are instant</span></div>
+      </section>
+
+      <section class="feature">
+        <div class="f-copy">
+          <p class="f-label">Results as you type</p>
+          <h2>A calculator that reads like notes</h2>
+          <p>Write the way you think. Units, money, percentages, and time zones work on any line, and the answer sits right next to it.</p>
+        </div>
+        <div class="demo" data-demo="math"></div>
+      </section>
+
+      <section class="feature flip">
+        <div class="f-copy">
+          <p class="f-label">Pages with a type</p>
+          <h2>Two words turn a page into a tool</h2>
+          <p>Type todo list and your times start counting down. Type cal tracker and every food you write shows its calories.</p>
+        </div>
+        <div class="demo-stack">
+          <div class="demo" data-demo="todo"></div>
+          <div class="demo" data-demo="cals"></div>
+        </div>
+      </section>
+
+      <section class="feature">
+        <div class="f-copy">
+          <p class="f-label">Short forms</p>
+          <h2>Abbreviations that know where they are</h2>
+          <p>On a recipe, c means cup. On a converter, c means Celsius. The page decides, so you can type the short version everywhere.</p>
+        </div>
+        <div class="demo-stack">
+          <div class="demo" data-demo="recipe"></div>
+          <div class="demo" data-demo="convert"></div>
+        </div>
+      </section>
+
+      <section class="feature flip">
+        <div class="f-copy">
+          <p class="f-label">Connected pages</p>
+          <h2>Your pages share their numbers</h2>
+          <p>Type connect on a grocery list and pick your budget. Then a line that says groceries on the budget adds up the whole list. Workouts and steps subtract from your calories the same way.</p>
+        </div>
+        <div class="demo-stack">
+          <div class="demo" data-demo="linkGroceries"></div>
+          <div class="demo" data-demo="linkBudget"></div>
+        </div>
+      </section>
+
+      <section class="feature">
+        <div class="f-copy">
+          <p class="f-label">Charts</p>
+          <h2>Type chart, get a chart</h2>
+          <p>Under a calorie tracker it graphs each day against your goal. Under a weight log it draws the trend. Delete the word and it’s gone.</p>
+        </div>
+        <div class="demo" data-demo="chart"></div>
+      </section>
+
+      <section class="gallery" id="pages">
+        <h2><span class="n-pages">29</span> pages, one keyword each</h2>
+        <p class="g-lede">Every example below is calculated live by Plainsum, right now, in your browser.</p>
+        <div class="g-grid" id="gallery"></div>
+      </section>
+
+      <section class="cta-band">
+        <h2>Start with a blank page</h2>
+        <p>Free. No account, no card. Your pages stay on your device.</p>
+        <a class="btn primary" href="./app.html?start">Open Plainsum</a>
+      </section>
+
+      <section class="faq">
+        <h2>Questions</h2>
+        <details>
+          <summary>Where are my pages saved?</summary>
+          <p>In your browser on this device. Nothing is sent anywhere, which is also why results show up instantly.</p>
+        </details>
+        <details>
+          <summary>Do I need to learn any code?</summary>
+          <p>No. You type the way you’d write a note. Type /help on any line to see every page type, command, and abbreviation.</p>
+        </details>
+        <details>
+          <summary>Where do the calories come from?</summary>
+          <p>From USDA FoodData Central (SR Legacy, 2018), which includes some fast-food items. For anything missing, type the calories once, like shake shack burger 530 cal, and Plainsum remembers it.</p>
+        </details>
+        <details>
+          <summary>Are currency conversions live?</summary>
+          <p>No. Plainsum uses fixed, approximate rates and marks those answers with ≈. Set your own with a line like 1 eur = 1.10 usd.</p>
+        </details>
+        <details>
+          <summary>Is there a desktop app?</summary>
+          <p>Not yet. Plainsum runs in your browser for now.</p>
+        </details>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <span>Plainsum</span>
+      <a href="./app.html?start">Open Plainsum</a>
+    </footer>
+
+  </body>
+</html>
