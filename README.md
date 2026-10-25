@@ -15,7 +15,7 @@ Type like you're writing a note. Plainsum answers on the same line, and turns an
 | **Mac** (Apple silicon and Intel) | [Download Plainsum for Mac](https://github.com/nosliwgroup/plainsum/releases/latest/download/Plainsum-mac.dmg) |
 | **Windows** 10 or later | [Download Plainsum for Windows](https://github.com/nosliwgroup/plainsum/releases/latest/download/Plainsum-windows-setup.exe) |
 | **Homebrew** | `brew install --cask nosliwgroup/plainsum/plainsum` |
-| **No install** | [Open it in your browsehub.io/plainsum/app.html?start) |
+| **No install** | [Open it in your browser [https://nosliwgroup.github.io/plainsum/app.html] |
 
 Plainsum is free.
 
