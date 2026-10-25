@@ -1,5 +1,5 @@
 import{E as e,T as t,_ as n,a as r,b as i,i as a,l as o,r as s,s as c,t as l,w as u}from"./chart-mErwlyWH.js";var d=t(),f=e(Date.now(),d),p=u(f.y,f.mo,f.d,10,40,d);function m(e,t=-1,n,i,u=520){let f=o(e,{now:p,zone:d,pages:n,selfId:i}),m=e.split(`
-`).map((e,n)=>{let i=f.lines[n],o=`row${i.strong?` strong`:``}${i.dim?` dim`:``}${i.strike?` strike`:``}`,s=n===t?`<i class="caret"></i>`:``,c=r(i);return`<div class="${o}"><div class="txt">${a(e,i.spans)}${s}</div><div class="res">${c}</div></div>`}).join(``),h=f.footer,g=h?`<div class="footer"><span class="res-in${h.tone&&h.tone!==`plain`?` t-${h.tone}`:``}">${c(h.widget)}${s(h.text)}</span></div>`:``;return`<div class="mirror">${m}</div>${f.chart?`<div class="chart">${l(f.chart,u)}</div>`:``}${g}`}var h={math:`Trip math
+`).map((e,n)=>{let i=f.lines[n],o=`row${i.strong?` strong`:``}${i.dim?` dim`:``}${i.strike?` strike`:``}`,s=n===t?`<i class="caret"></i>`:``,c=n===t?``:r(i);return`<div class="${o}"><div class="txt">${a(e,i.spans)}${s}</div><div class="res">${c}</div></div>`}).join(``),h=f.footer,g=h?`<div class="footer"><span class="res-in${h.tone&&h.tone!==`plain`?` t-${h.tone}`:``}">${c(h.widget)}${s(h.text)}</span></div>`:``;return`<div class="mirror">${m}</div>${f.chart?`<div class="chart">${l(f.chart,u)}</div>`:``}${g}`}var h={math:`Trip math
 flights = $1,240
 hotel = $180 * 6
 total = flights + hotel
