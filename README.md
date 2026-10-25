@@ -48,33 +48,33 @@ rent * 12                       → $21,600
 
 No formulas or special syntax. Write it thincluded.
 
-### The first line turns a page into a too
+### The first line turns a page into a tool
 
-Write one of these on the first line of a
+Write one of these on the first line of a page
 
 | First line | What you get |
 |---|---|
-| `todo list` | Tasks that count down to toverdue |
+| `todo list` | Tasks that count down to overdue |
 | `cal tracker` | Calories for 550+ foods, including McDonald's, Taco Bell, KFC, Subway and more |
-| `budget` | Spending against a limit, wit counted right |
+| `budget` | Spending against a limit |
 | `workout` | Sets, reps and weight in any order, with volume and personal records |
-| `recipe` | Scale a recipe to any number
+| `recipe` | Scale a recipe to any number |
 | `habits` | Streaks and weekly goals |
-| `cal` | A calendar with repeating events
+| `cal` | A calendar with repeating events |
 | `measure` | Any amount in every unit that makes sense at once |
 
 …and 22 more, including water, sleep, steps, weight, savings, subscriptions, a loan calculator, a bill
-splitter, trips, time zones, countdowns an
+splitter, trips, time zones, countdowns and a weekly review.
 
 ### A few more things
 
-- **`chart`** on its own line graphs the p
+- **`chart`** on its own line graphs the data from the current page.
 - **`connect`** links pages together. Your grocery list can add to your budget, and your workouts can subtract
 from your calories.
 - **`every mon 8pm`** makes a task, event or bill repeat.
-- **`same as yesterday`** copies the day b
+- **`same as yesterday`** copies the day before on a daily log.
 - **`/template`** fills in a ready-made page, like a meal plan or monthly budget.
-- **⌘K** (Ctrl+K on Windows) jumps to any
+- **⌘K** (Ctrl+K on Windows) jumps to any page.
 - **`/help`** on any line shows everything you can type.
 
 ---
@@ -82,7 +82,7 @@ from your calories.
 ## Private by design
 
 Everything runs on your computer. Plainsum doesn't need an account, doesn't send your notes anywhere, and works
-offline. In the desktop app your pages aren the browser version they're saved inthat browser on that device.
+offline. In the desktop app your pages are saved on your computer. In the browser version they're saved in that browser on that device.
 
 ---
 
@@ -93,13 +93,13 @@ Yes.
 
 **Where do the calories come from?**
 From USDA FoodData Central, the U.S. government's food database. Restaurant menu items are from its 2018 data,
-so newer items may be missing. For anythine calories once, like `shake shack burger530 cal`, and Plainsum remembers it.
+so newer items may be missing. For anything it doesnt know, type the calories once, like `shake shack burger 530 cal`, and Plainsum remembers it.
 
 **Are currency conversions live?**
 No. Plainsum uses fixed, approximate ratesith ≈. You can set your own, like `1 eur =1.10 usd`.
 
 **Can I move my pages between computers?**
-Not yet. Pages stay on the device where yo
+Not yet. Pages stay on the device where you made them.
 
 **Does it work on phones?**
 The browser version works on a phone. There's no phone app yet.
@@ -108,6 +108,3 @@ The browser version works on a phone. There's no phone app yet.
 
 This repository holds the downloads and website for Plainsum.
 
-Two notes:
-- Facts I wasn't sure about: the README ons today. I left out sync, a phone app andanything else not built yet, and the FAQ says so plainly. If you later add signing or buy a domain, update the "Opening it the first time" section
-- I can put it in for you. The release script currently writes a short README each time, which would overwrite this one. If you want, I'll update the s push it to the public repository now.
