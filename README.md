@@ -2,6 +2,8 @@
 
 **Notes that do the math.**
 
+[Feedback]([url](https://tally.so/r/BEEzV7))
+
 Type like you're writing a note. Plainsum answers on the same line, and turns any page into a to-do list, calorie tracker, budget, and more.
 
 **[Website](https://nosliwgroup.github.io/plainsum/)** · **[Use it in your browser](https://nosliwgroup.github.io/plainsum/app.html?start)**
